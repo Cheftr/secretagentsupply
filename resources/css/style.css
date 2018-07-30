@@ -160,3 +160,16 @@ nav {
   background-color: black;
   padding: 1rem 0;
 }
+
+/* Footer */
+
+.main.footer {
+  background-color: black;
+  height: 5rem;
+  align-items: center;
+  display: flex;
+}
+
+.container footer {
+  text-align: left;
+}
