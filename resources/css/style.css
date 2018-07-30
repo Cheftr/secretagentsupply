@@ -50,6 +50,113 @@ header p {
   height: 25rem;
 }
 
-.banner .container {
+.container {
   width: 960px;
+  margin: 0 auto;
+}
+
+
+
+/* Navigation */
+
+.nav {
+  background-color: firebrick;
+}
+
+nav {
+  display: flex;
+  width: 960px;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 0.75rem 0;
+}
+
+/* Products */
+
+.product {
+  display: flex;
+  margin: 3rem 0 0 0;
+  justify-content: space-between;
+}
+
+/* Exploding Pen */
+
+.pen {
+  width: 30%;
+}
+
+.pen img {
+  height: 9rem;
+  padding: 2rem 0;
+  border: 4px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pen p {
+  background-color: black;
+  padding: 0.5rem 0;
+}
+
+/* Watch */
+
+.watch {
+  width: 30%;
+}
+
+.watch img {
+  height: 9rem;
+  padding: 2rem 0;
+  border: 4px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch p {
+  background-color: black;
+  padding: 0.5rem 0;
+}
+
+/* Glasses */
+
+.glasses {
+  width: 30%;
+}
+
+.glasses img {
+  height: 9rem;
+  padding: 2rem 0;
+  border: 4px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glasses p {
+  background-color: black;
+  padding: 0.5rem 0;
+}
+
+/* Info */
+
+.info {
+  width: 960px;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.location {
+  width: 35%;
+}
+
+.box {
+  background-color: black;
+  padding: 1rem 0;
 }
